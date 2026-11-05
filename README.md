@@ -4,6 +4,15 @@ A written case study of a production membership and voucher-redemption system I 
 
 > **No source code is published here.** The codebase is private and owned by the client and the agency that built it. This repository describes the system, my role, and the problems I solved, without sharing proprietary code, credentials, or customer data.
 
+## Live product
+
+| | Link | Notes |
+|---|---|---|
+| Member web app (PWA) | [Open the member app](https://xerosumio.github.io/glg-tlg-ecosystem-frontend/) | No app store download: open it on a phone and choose "Add to Home Screen" to install it. Sign-in requires a membership account. |
+| Client's corporate website | [www.glg.com.hk](https://www.glg.com.hk) | Public site from the same project, managed by the website CMS. |
+
+My own code changes were in the membership API and the admin / merchant back office described below, which power the member app's vouchers and redemptions. The back office is staff-only, so it is not linked here.
+
 ---
 
 ## Overview
